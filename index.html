@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
     <title>Content Creator Yana Provotorova</title>
     <style>
         section {
@@ -238,6 +239,26 @@
 <video src="..." class="object-fit-fill" autoplay></video>
 <video src="..." class="object-fit-scale" autoplay></video>
 <video src="..." class="object-fit-none" autoplay></video>
+
+<!-- Examples for Glightbox -->
+
+ <div class="row g-3">
+    <div class="col-6 col-md-4">
+        <a href="assets/certificate.JPG" class="glightbox">
+            <img src="assets/certificate.JPG" class="img-fluid rounded" alt="Photo 1">
+        </a>
+    </div>
+    <div class="col-6 col-md-4">
+        <a href="assets/certificate.JPG" class="glightbox">
+            <img src="assets/certificate.JPG" class="img-fluid rounded" alt="Photo 2">
+        </a>
+    </div>
+    <div class="col-6 col-md-4">
+        <a href="assets/certificate.JPG" class="glightbox">
+            <img src="assets/certificate.JPG" class="img-fluid rounded" alt="Photo 3">
+        </a>
+    </div>
+</div>
 
 <!-- topic at a glance -->
     <section id="topics">
@@ -565,5 +586,9 @@
             new bootstrap.Tooltip(t);
         });
      </script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+        <script>
+            const lightbox = GLightbox();
+        </script> 
 </body>
 </html>
